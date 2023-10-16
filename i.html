@@ -169,9 +169,10 @@
     }
     requestAnimationFrame(loop);
 
-    const MoveLevel =()=>{
-        alert('level2');
-        score >= 20 ? window.location.href="./i2.html" : 0
+const moveToNextLevel =()=>{
+    score >= 70 ? (window.location.href='./snake2.html',
+    alert('You made it, you go to next level') ) 
+        : 0  
     }
     
 </script>
